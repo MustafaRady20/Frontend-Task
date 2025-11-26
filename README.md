@@ -69,5 +69,19 @@ npm start
 ---
 
 
+.env.development 
+VITE_USE_MOCK=true
+
+
+.env.production
+VITE_USE_MOCK=false
+
+
+admin account for login 
+
+admin
+admin123
+
+
 **Mostafa Rady** – Frontend Developer
 
