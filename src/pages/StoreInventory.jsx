@@ -67,7 +67,6 @@ const Inventory = () => {
     }
   };
 
-  // React Table for dropdown
   const dropdownColumns = useMemo(
     () => [
       {
