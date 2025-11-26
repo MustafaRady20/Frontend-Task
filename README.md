@@ -69,7 +69,5 @@ npm start
 ---
 
 
-## Author
-
 **Mostafa Rady** – Frontend Developer
 
