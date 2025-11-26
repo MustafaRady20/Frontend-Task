@@ -6,13 +6,14 @@ import TableActions from './ActionButton/TableActions';
 const BooksTable = ({
   books,
   authors,
+  storeId,
   editingRowId,
   setEditingRowId,
   editName,
   setEditName,
   setBooks,
   deleteBook,
-  columnsConfig = ['id', 'name', 'pages', 'author', 'actions'], // Default columns
+  columnsConfig = ['id', 'name', 'pages', 'author','actions', ], // Default columns
 }) => {
   // Create a lookup map for authors
   const authorMap = useMemo(() => {
@@ -85,6 +86,8 @@ const BooksTable = ({
   const handleEdit = (book) => {
     setEditingRowId(book.id);
     setEditName(book.name);
+
+    console.log(editName)
   };
 
   // Save edited name

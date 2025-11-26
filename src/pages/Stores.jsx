@@ -7,9 +7,11 @@ import Modal from '../components/Modal';
 import TableActions from '../components/ActionButton/TableActions';
 import { useNavigate } from 'react-router-dom';
 
+
 const Stores = () => {
   const navigate = useNavigate();
   
+
 
   const handleViewStoreInventory = (storeId) => {
     navigate(`/store/${storeId}`);
